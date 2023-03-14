@@ -918,6 +918,12 @@ header .container nav .form::after {
     border: 1px solid var(--mainColor);
     padding: 20px;
     color: black;
+    transition: 0.3s;
+}
+.pricing .pricing-content .card .footer a:hover {
+    background-color: black;
+    color: yellow;
+    border-color: black;
 }
 
 .pricing .container .contact p {
